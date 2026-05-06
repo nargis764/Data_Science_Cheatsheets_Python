@@ -1,0 +1,15 @@
+# To displays all columns in Pandas
+pd.set_option('display.max_columns', None)
+
+#Loading data in Pandas
+df = pd.read_csv('data.csv')
+
+# Display the first five rows.
+df.head(5)
+
+# Display the data types of the columns.
+df.dtypes
+
+#display descriptive statistics
+df.describe()
+
