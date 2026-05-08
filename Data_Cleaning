@@ -1,1 +1,12 @@
+# Finding Duplicates
+df.duplicated()
 
+#Removing Duplicates
+df.drop_duplicates()
+
+#Removing Duplicates by a specific column and keeping the first occurrence
+df.drop_duplicates(subset='column', keep='first')
+
+
+#Datetime Conversion
+pd.to_datetime(df['column'])
